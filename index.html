@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="shortcut icon"  href="public/favicon.ico" type="image/png/ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="garanti.css">
+    <title>Həftədə 6 dəfə uçuş | Garanti Kargo - Tam vaxtında</title>
+</head>
+<body id="body-blur">
+   
+
+        <header>
+            <nav class="navbar navbar-expand-lg" style="padding-bottom: 30px;margin-top: 30px;">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="img/garanti-logo.svg" alt=""></a>
+                  <button class="navbar-toggler navbar-light" data-pushbar-target="right" onclick="tikla()" id="navbar-buton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style=" background-color: #4d148c;padding: 10px;border-radius: 15px;">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" data-pushbar-id="right" data-pushbar-direction="right" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style=" background-color: #4d148c;padding: 20px;border-radius: 15px;"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <hr class="canvas-hr">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Tariflər</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Mağazalar</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Xəbərlər</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Qaydalar</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Suallar</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Haqqımızda</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#" style="color: rgb(40, 33, 65);">Əlaqə</a>
+                            </li>
+                        </ul>
+                        <hr class="canvas-hr">
+                            <a class="giris" href="#" style="color: rgb(40, 33, 65);">Giriş</a>
+                            <button class="mt-1 qeydiyyat">Qeydiyyat</button>
+                            <h6>Bizi izləyin</h6>
+                            <ul class="offcanvas-ul">
+                              <li><i class="fa-brands fa-facebook-square"></i></li>
+                              <li><i class="fa-brands fa-instagram"></i></li>
+                              <li><i class="fa-brands fa-tiktok"></i></li>
+                              <li><i class="fa-brands fa-youtube"></i></li>
+                              <li><i class="fa-brands fa-twitter"></i></li>
+                            </ul>
+                            <h6 class="elaqe">Mənlə əlaqə: 050 882 76 10</h6>
+                            <h6 class="elaqe">Mənlə əlaqə: taleh170819@gmail.com</h6>
+                       </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <div class="container cont">
+          <div class="row justify-content-between row1">
+            <div class="col-lg-5 col-md-5 col-sm-4 call text-start align-self-center">
+              <img src="img/call.svg" alt="">
+              <a href="">+99412 525 51 00</a>
+              <a class="giris" href="#" >Giriş</a>
+              <button class="qeydiyyat">Qeydiyyat</button>
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-8 col-12 text-end">
+              <button class="beyan"><img src="img/c463ad8f6b5f00fd58ea9e3cab4e2fd8.svg" alt=""> Bəyan edin</button>
+              <button class="sifaris"><img src="img/bf8e9a1ea613d0042e5394c2af28adb4.svg" alt=""> Sifariş edin</button>
+            </div>
+          </div>
+          <div class="row row2">
+            <div class="col-12 mb-4" style="display: flex;justify-content: space-around;">
+                <li><a href="">Giriş</a></li>
+                <li style="margin-left: 10px;"><a href="">Qeydiyyat</a></li>
+            </div>
+            <div class="col-12" style="display: flex;justify-content: space-around;">
+                <button class="beyan col-6"><img src="img/c463ad8f6b5f00fd58ea9e3cab4e2fd8.svg" alt=""> Bəyan edin</button>
+                <button class="sifaris col-6"><img src="img/bf8e9a1ea613d0042e5394c2af28adb4.svg" alt=""> Sifariş edin</button>
+            </div>
+          </div>
+        </div>
+
+    <!--! Ana seyfe--->
+
+        <div class="container mt-4 mb-4">
+          <div class="row"> 
+            <div class="col-lg-12 col-12 text-start">
+                <h6>Ana Səhifə</h6> 
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container mb-5">
+          <div class="row sifaris-row">
+            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-11 sifaris-et">
+                <div class="row g-0">
+                  <div class="col-xl-6 col-lg-8 col-md-7 col-sm-12 col-12 sifaris_col">
+                    <div class="sifaris-body">
+                      <h5 class="sifaris-title mt-4 mb-3">Sifariş sizdən Garantisi bizdən ;)</h5>
+                      <p class="sifaris-text mb-4">Şirkətimiz Türkiyə, Amerika və Çindən yüklərin daşınması ilə məşğul olur. Sizin sifarişləriniz həftədə 6 dəfə Türkiyədən, 1 dəfə isə Amerikadan və Çindən Bakıya çatdırılır.</p>
+                      <button class="sifaris-buton col-xl-7 col-lg-5 col-md-6 col-sm-5 col-12"><span> Sifariş et</span><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-4 col-md-5 col-sm-7 col-8">
+                    <img src="img/sifaris.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+             <div class="col-xl-4 col-lg-5 kalkuliyator">
+                <div class="row">
+                  <div class="kalk">
+                    <h4>Kalkulyator</h4>
+                    <h5>Kalkulyatoru sıfırla</h5>
+                  </div>
+                  <h6>Hesablayacağınız məbləğlərdə satıcı firmaların tələb etdiyi Türkiyə daxili karqo pulunu nəzərə almağı unutmayın</h6>
+                  <div class="input-1">
+                    <select class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-6">
+                      <option class="form-select" selected>Türkiyə</option>
+                      <option class="form-select">ABŞ</option>
+                      <option class="form-select">ÇİN</option>
+                    </select>
+                    <input class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5" disabled type="text" value="Azərbaycan">
+                  </div>
+                  <div class="input-2">
+                    <div class="group"> <!-- TODO-->
+                      <input id="ceki" class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-7" type="text" placeholder="Çəki">
+                      <select class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-3">
+                        <option selected>kq</option>
+                        <option>qr</option>
+                      </select>
+                    </div>
+                    <select class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 p-3 adi-maye">
+                      <option selected>Adi</option>
+                      <option>Maye</option>
+                    </select> 
+                  </div>
+                  <div class="hesabla">
+                    <h5 id="cem">Cəmi: $0.00</h5>
+                    <button id="hesabla" onclick="hesabla()" class="hesab col-xl-6 col-lg-6 col-md-6 col-sm-4 col-6">Hesabla</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12 text-start card_text">
+                  <h1>Sifarişi necə edim?</h1>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cart">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="img/98e2acf731e2acad0592cf0415ffed8c.svg"> Qeydiyyatdan keç</h5>
+                    <p class="card-text mb-3">Garanti kargo saytında qeydiyyatdan keçməklə, xaricdə daimi ünvana sahib olun.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cart">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="img/98e2acf731e2acad0592cf0415ffed8c.svg"> Sifarişi bizə yolla</h5>
+                    <p class="card-text ">Onlayn mağazalardan alış-veriş edərkən bağlamanızın çatdırılacağı ünvan yerinə sizə təmin etdiyimiz ünvanı daxil edin.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cart">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="img/1ea568e4a8ca0ec2fb97c595d5323b6d.svg"> Bağlamanı əldə et</h5>
+                    <p class="card-text mb-3">3-5 iş günü ərzində sifarişinizi Bakı anbarımızdan əldə edə və ya kuryer xidmətimizdən istifadə edə bilərsiniz.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section style="background-color: #FAFAFA;">
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-xl-12 mt-5 mb-4 text-start">
+                 <h1 style="color: #4d148c;font-weight: 700;">Ölkələr üzrə tariflər</h1>
+              </div>
+              <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 tarif">
+                <div class="card tarif-card" id="turkiye_card">
+                  <div class="card-body">
+                    <img src="img/turkey-flag.png">
+                  </div>
+                  <div class="tarif-text">
+                    <h3 id="turk-color1">Türkiyə</h3>
+                    <p id="turk-color2">Şirkətimiz Tükiyədən ən sərfəli qiymətlərlə həftədə 6 dəfə sizin sifarişlərinizi çatdırır.</p>
+                  </div>
+                </div>
+                <div class="card tarif-card" id="abs_card">
+                  <div class="card-body card-img">
+                    <img src="img/us-flag.jpeg">
+                  </div>
+                  <div class="tarif-text">
+                    <h3 id="abs-color1">Amerika</h3>
+                    <p id="abs-color2">Həftədə 1 dəfə isə istədiyiniz maye və digər məhsulları Amerikadan sizin üçün çatdırır.</p>
+                  </div>
+                </div>
+                <div class="card tarif-card" id="cin_card">
+                  <div class="card-body card-img">
+                    <img src="img/cn-flag.png">
+                  </div>
+                  <div class="tarif-text">
+                    <h3 id="cin-color1">Çin</h3>
+                    <p id="cin-color2">Çin Həftədə 1 dəfə isə istədiyiniz maye və digər məhsulları Çindən sizin üçün çatdırır.</p>
+                  </div>
+                </div>
+
+                <div class="sirket mt-5 col-xl-12">
+                  <h6>Şirkətimiz Türkiyə, Amerika və Çindən yüklərin daşınması ilə məşğul olur. Sizin sifarişləriniz həftədə 6 dəfə Türkiyədən, 1 dəfə isə Amerikadan və Çindən Bakıya çatdırılır.</h6>
+                  <h6 style="margin-top: 15px;">Garanti kargo Sizə bağlamalarınızın çəkisindən asılı olaraq, Türkiyədən 1 dollardan, ABŞ-dan 2.50, Çindən isə 4.9 dollardan başlayan qiymətlərlə sərfəli çatdırılma təklif edir. Sifariş olunan bağlamanın çatdırılma haqqı çəkiyə görə hesablanır.</h6>
+                  <h6 style="color: #fcac0b;">Ölçüsü 1 metrdən böyük olan bağlamaların kargo pulu isə həcmi çəkiyə görə müəyyən edilir</h6>
+                </div>
+
+              </div>
+
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 qiymet mt-4" id="qiymet_1">
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.0 kq-dan 0.10 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      1.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.1 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      2.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      1 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.90 $
+                    </div>
+                  </div>
+                </div>
+                <!--! MAye mehsullar-->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4 mb-4 maye-mehsullar">
+                  <h5>Maye məhsulları üçün</h5>
+                </div>
+                <!--? ---------------->
+
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.0 kq-dan 0.10 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      1.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.1 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      2.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      1 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      3.90 $
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--! Abs---->
+
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 qiymet mt-4" id="qiymet_2">
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.00 kq-dan 0.10 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      2.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.10 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      2.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      5.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      6.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      1 kq-dan 5 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      5 kq-dan 10 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.30 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      10 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      6.90 $
+                    </div>
+                  </div>
+                </div>
+                <!--! MAye mehsullar-->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4 mb-4 maye-mehsullar">
+                  <h5>Maye məhsulları üçün</h5>
+                </div>
+                <!--? ---------------->
+
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.00 kq-dan 0.10 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      2.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.10 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      2.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      5.00 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      6.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      1 kq-dan 5 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      5 kq-dan 10 kq-a qədər
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      7.30 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      10 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two two-abs"></div>
+                    <div class="three">
+                      6.90 $
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ? CIn----------->
+
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 qiymet mt-4" id="qiymet_3">
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.0 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      4.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      6.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      8.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      9.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      1 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two two-cin"></div>
+                    <div class="three">
+                      9.50 $
+                    </div>
+                  </div>
+                </div>
+                <!--! MAye mehsullar-->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4 mb-4 maye-mehsullar">
+                  <h5>Maye məhsulları üçün</h5>
+                </div>
+                <!--? ---------------->
+
+                <div class="card qiymet-card">
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.0 kq-dan 0.25 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      4.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.25 kq-dan 0.5 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      6.90 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.5 kq-dan 0.75 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      8.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet">
+                    <div class="one">
+                      0.75 kq-dan 1.0 kq-a qədər
+                    </div>
+                    <div class="two"></div>
+                    <div class="three">
+                      9.50 $
+                    </div>
+                  </div>
+                  <div class="card-qiymet mb-5">
+                    <div class="one">
+                      1 kq-dan yuxarı (hər kq görə)
+                    </div>
+                    <div class="two two-cin"></div>
+                    <div class="three">
+                      9.50 $
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <div class="sirket2 mt-5 col-xl-12">
+                  <h6>Şirkətimiz Türkiyə, Amerika və Çindən yüklərin daşınması ilə məşğul olur. Sizin sifarişləriniz həftədə 6 dəfə Türkiyədən, 1 dəfə isə Amerikadan və Çindən Bakıya çatdırılır.</h6>
+                  <h6 style="margin-top: 15px;">Garanti kargo Sizə bağlamalarınızın çəkisindən asılı olaraq, Türkiyədən 1 dollardan, ABŞ-dan 2.50, Çindən isə 4.9 dollardan başlayan qiymətlərlə sərfəli çatdırılma təklif edir. Sifariş olunan bağlamanın çatdırılma haqqı çəkiyə görə hesablanır.</h6>
+                  <h6 style="color: #fcac0b;">Ölçüsü 1 metrdən böyük olan bağlamaların kargo pulu isə həcmi çəkiyə görə müəyyən edilir</h6>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-xl-12 mt-5">
+              <h1 style="color: #4d148c; font-weight: 700;">Tərəfdaşlarımız</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container wrapper" style="margin-bottom: 70px;">
+          <div class="carusel owl-carousel mt-5">
+            <div class="carus card-1">
+              <img src="img/azal.png" width="30%">
+            </div>
+            <div class="carus card-2">
+              <img src="img/iata.png" width="50%">
+            </div>
+            <div class="carus card-3">
+              <img src="img/tr-airlines.png" width="80%">
+            </div>
+            <div class="carus card-4">
+              <img src="img/silkway.png" width="60%">
+            </div>
+            <div class="carus card-1">
+              <img src="img/azal.png" width="20%">
+            </div>
+            <div class="carus card-2">
+              <img src="img/iata.png" width="50%">
+            </div>
+            <div class="carus card-3">
+              <img src="img/tr-airlines.png" width="80%">
+            </div>
+            <div class="carus card-4">
+              <img src="img/silkway.png" width="60%">
+            </div>
+          </div>
+        </div>
+
+       <section style="background: #FAFAFA;">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 mt-3 mb-5">
+              <h1 style="color: #4d148c;font-weight: 700;">Xəbərlər</h1>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div class="card col-xl-12 xeber">
+                <img src="img/Garanti_600x300_12.16.2021-02.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="xeber-text">Türkiyədən alış-veriş Bizimlə daha sürətlidir!</p>
+                  <p class="xeber-text-2"><i class="fa-solid fa-calendar-days"></i>29.11.2021 16:03</p>
+                  <p class="xeber-text-3">Türkiyədən alış-veriş bir çox cəhətlərinə görə artıq ənənəvi mağaza və...</p>
+                  <div class="card-foter text-end">
+                    <img src="img/20ac1cba8eb23e1e1006dbf9fff9e7ea.svg">
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div class="card col-xl-12 xeber">
+                <img src="img/Garanti_600x300_12.16.2021-03.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="xeber-text">Trendyoldan Azərbaycana sifariş və Türiyədən alı...</p>
+                  <p class="xeber-text-2"><i class="fa-solid fa-calendar-days"></i>13.12.2021 00:21</p>
+                  <p class="xeber-text-3">Trendyoldan Azərbaycana sifariş,Türkiyədən alış-veriş etmək mümkündü...</p>
+                  <div class="card-foter text-end">
+                    <img src="img/20ac1cba8eb23e1e1006dbf9fff9e7ea.svg">
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container wrapper" style="margin-bottom: 70px;">
+        <div class="carusel-1 owl-carousel mt-5">
+          <div class="carus-1 card-11">
+            <img src="img/camper.png" style="margin-top: 4px;" width="60%">
+          </div>
+          <div class="carus-1 card-22 mt-1">
+            <img src="img/flo.png" width="60%">
+          </div>
+          <div class="carus-1 card-33">
+            <img src="img/gap.png" style="margin-top: 4px;" width="60%">
+          </div>
+          <div class="carus-1 card-44">
+            <img src="img/h&m.png" style="margin-top: 4px;" width="60%">
+          </div>
+          <div class="carus-1 card-11 mt-1">
+            <img src="img/karaca.png" width="60%">
+          </div>
+          <div class="carus-1 card-22 mt-1">
+            <img src="img/trendyol (1).png" width="60%">
+          </div>
+          <div class="carus-1 card-33">
+            <img src="img/bebetto.png" style="margin-top: 4px;" width="60%">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer" style="background-color: #282141;">
+        <div class="container" style="border-bottom: 2px solid #c9c7b249;">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 mt-5">
+              <div class="kargo mt-3">
+                <img src="img/1fe5d3a0dab926bce613842c9e49ee73.svg">
+                <p>"Garanti kargo" MMC beynəlxalq poçt bağlamalarının daşınması sahəsində fəaliyyət göstərir. Beynəlxalq poçt bağlamalarını xaricdəki anbarlarında qəbul edir və onları Azərbaycana daşıyaraq, fiziki və hüquqi şəxslərə təhvil verilməsini təmin edir.</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 col-9 kargo-foter">
+              <div class="kargo-2">
+                  <h5>Bölmələr</h5>
+              </div>
+              <div class="kargo-body">
+                <div class="kargo-text-1 text-start">
+                  <p>Tariflər</p>
+                  <p>Kalkulyator</p>
+                  <p>Gizlilik şərtləri</p>
+              </div>
+              <div class="kargo-text-2 text-start">
+                <p>Mağazalar</p>
+                <p>Haqqımızda</p>
+                <p>Əlaqə</p>
+            </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 mb-4">
+              <div class="kargo-unvan">
+                <h5>Ünvan</h5>
+                <p>Səbail rayonu, Puşkin küç. 13D <br> (Səməd Vurğun bağının yanı, <br> "Ailə Planlama Mərkəzi" ilə üzbəüz) <br> Bakı/Azərbaycan</p>
+                <div class="foter-icon">
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-tiktok"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="foter-end foter-1">
+                <h6>© 2022 Garanti kargo | Bütün hüquqlar qorunur</h6>
+                <div class="tezlikle">
+                  <h6>Tezliklə</h6>
+                  <img src="img/googleplay.svg">
+                  <img src="img/appstore.svg" >
+                  <img src="img/visa.svg" >
+                  <img src="img/master.svg" >
+                </div>
+              </div>
+              <div class="foter-end foter-2">
+                <div class="tezlikle">
+                  <h6>Tezliklə</h6>
+                  <div class="tezlik-img">
+                  <img src="img/googleplay.svg">
+                  <img src="img/appstore.svg" >
+                  <img class="visa-master" src="img/visa.svg" >
+                  <img class="visa-master" src="img/master.svg" >
+                 </div>
+                </div>
+                <div class="son col-12">
+                  <h6>© 2022 Garanti kargo | Bütün hüquqlar qorunur</h6>
+                  <div class="son-img">
+                    <img src="img/visa.svg" >
+                    <img src="img/master.svg" >
+                  </div> 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  
+
+
+
+
+
+    <script src="garanti.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
