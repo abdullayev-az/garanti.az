@@ -280,8 +280,8 @@ body{
     border-top-right-radius: 15px;
     position: relative;
     right: 5px;
-    padding-top: 15px;  /* TODO */
-    padding-bottom: 15px;
+    padding-top: 15.5px;  /* TODO */
+    padding-bottom: 16px;
     padding-left: 10px;  /* TODO */
     padding-right: 10px;  /* TODO */
 }
