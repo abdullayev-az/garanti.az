@@ -259,31 +259,56 @@ body{
     color: #fff;
     cursor: pointer;
 }
-.group input{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius:0;
+.input-group input{
+    padding: 15px 20px;
+    background-color: #4d148c;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid#fff;
+    color: #fff;
+    cursor: pointer;
 }
-.group input::placeholder{
+.adi-maye{
+    padding: 15px;
+    background-color: #4d148c;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid#fff;
+    color: #fff;
+    cursor: pointer;
+}
+.input-group select{
+    padding: 15px 0;
+    padding-left: 5px;
+    background-color: #4d148c;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid#fff;
+    color: #fff;
+    cursor: pointer;
+}
+.input-group input::placeholder{
     color: #fff;
 }
-.group input:focus,
-.group select:focus,
+.input-group input:focus,
+.input-group select:focus,
 .adi-maye:focus{
     outline: none;
 }
-.group select{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    position: relative;
-    right: 5px;
-    padding-top: 15.5px;  /* TODO */
-    padding-bottom: 16px;
-    padding-left: 10px;  /* TODO */
-    padding-right: 10px;  /* TODO */
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .hesabla{
     display: flex;
@@ -792,6 +817,9 @@ body{
     .group select{
         padding-left: 5px; 
         padding-right: 0px;  
+    }
+    .input-group select{
+        padding-left: 10px;
     }
 
 }
